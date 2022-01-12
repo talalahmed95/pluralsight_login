@@ -6,6 +6,10 @@ body {
 	display: inline;
 }*/
 
+.title-icon {
+	border-radius: 50%;
+}
+
 .left-section {
 	background-color: #14141a;
 	min-height: 100vh;
@@ -26,21 +30,29 @@ body {
 }
 
 .left-div-logo {
-	
+	margin: 6rem 0;
 }
 
 .left-div-logo img {
 	width: 300px;
 }
 
+.left-div-form {
+	/*margin-top: 2rem;*/
+}
+
 .left-div-form label {
 	color: #ffffff;
+	display: block;
 }
 
 .left-div-form input {
-	background-color: #000000;
+	background-color: transparent;
+	color: #ffffff;
 	border: ridge;
 	border-width: 0.5px;
 	border-color: #707070;
 	/*border-radius: 1px;*/
+	padding: 0.5rem 4rem;
+	margin: 0.2rem 0;
 }
